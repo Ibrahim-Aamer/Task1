@@ -65,29 +65,7 @@ public class CheckingAccount extends Account
 		
 	}
 	
-	/**
-	 * This function performs all execution of the account
-	 */
-	public void operationsMenu() 
-	{
-		Scanner input = new Scanner(System.in);
-		String choice = "1";
-		
-		//BOTH CHECKING AND SAVING ACCOUNT WILL HAVE DIFFERENT MENUS
-		System.out.println("---------------------------\n"
-						 + "       ACCOUNT MENU\n"
-						 + "---------------------------\n"
-						 + "1. Make a Deposit\n"
-						 + "2. Make a Withdrawal\n"
-						 + "3. Check Balance\n"
-						 + "4. Display all Deductions"
-						 + "4. Exit\n"
-						 + "---------------------------\n"
-						 + "\nEnter choice : ");
-		choice = input.nextLine();
-		
-		input.close();//closing input
-	}
+
 	
 	
 	public void displayAllDeductions() 
