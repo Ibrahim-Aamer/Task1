@@ -48,7 +48,7 @@ public class Admin {
 			choice = input.nextLine();
 			
 			//Input validation loop
-			while( !choice.equals("1") && !choice.equals("2") && !choice.equals("3") )
+			while( !choice.equals("1") && !choice.equals("2") && !choice.equals("3") && !choice.equals("4") )
 			{
 				System.out.println("Invalid Choice !\n"
 						+ "Please enter again : ");
